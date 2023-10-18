@@ -1,19 +1,19 @@
-const menuIcon = document.querySelector('.nav-menu-icon');
-const sidebar = document.getElementById('sidebar');
-const closeIcon = document.querySelector('.close-icon');
-const navbar = document.querySelector('.navbar');
-
-menuIcon.addEventListener('click', () => {
-    console.log("open");
-    sidebar.style.right = '0'; // Slide in the sidebar when the menu is clicked
-});
-closeIcon.addEventListener('click', () => {
-    console.log(close);
-    sidebar.style.right = '-250px'; // Slide out the sidebar when the close icon is clicked
-});
-window.addEventListener('resize', () => {
-
-    if (window.innerWidth >= 600) {
-        sidebar.style.right = '-100px'; // Hide the sidebar if the screen is wider than 600px
-    }
-});
+var sidebarBtn = document.getElementById("sidebarBtn");
+          var sidebar = document.getElementById("sidebar");
+          var sidebarContainer = document.getElementById("sidebarContainer");
+          var sideClose = document.getElementById("sideClose");
+      
+          sidebarBtn.addEventListener("click", ()=>{
+              sidebar.classList.add("open")
+          })
+          sidebar.addEventListener("click", ()=>{
+              sidebar.classList.remove("open")
+          })
+          sideClose.addEventListener("click", (e)=>{
+              e.stopPropagation()
+              sidebar.classList.remove("open")
+          })
+          sidebarContainer.addEventListener("click", (e)=>{
+              e.stopPropagation()
+              sidebar.classList.add("open")
+          })
