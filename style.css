@@ -1,5 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Pacifico&family=Rancho&display=swap");
-
+body {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 .user-header {
   background-color: #f4f5f4;
   height: 70px;
@@ -148,7 +154,7 @@ a {
   justify-content: center;
   align-items: center;
   display: flex;
-  
+
   position: relative;
 }
 
@@ -167,6 +173,9 @@ a {
 
   flex-direction: column;
   justify-content: center;
+}
+.banner .banner-container .banner-data p {
+  line-height: 2;
 }
 .banner .banner-container .banner-data button {
   width: 160px;
@@ -196,9 +205,9 @@ a {
   gap: 20px;
   flex-direction: column;
 }
-.banner-cards .banner-card .banner-card-head{
-    display: flex;
-    flex-direction: column;
+.banner-cards .banner-card .banner-card-head {
+  display: flex;
+  flex-direction: column;
 }
 
 .banner-cards .banner-card1 {
@@ -218,6 +227,52 @@ a {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+.trending {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 70%;
+  margin-top: 20px;
+}
+.trending .trending-head {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.trending-head p {
+  font-size: 16px;
+  text-align: center;
+  color: rgb(122, 122, 122);
+}
+.trending .trending-card {
+  height: 300px;
+  width: 220px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.trending-card p {
+  color: rgb(122, 122, 122);
+  margin: 0px !important;
+}
+.trending-card .price {
+  color: #000;
+  display: flex;
+  gap: 3px;
+}
+.trending .trending-card img {
+  height: 80%;
+  width: 100%;
+}
+.trending-cards{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
 }
 @media (min-width: 600px) {
   .sidebar {
@@ -242,7 +297,7 @@ a {
   }
 
   .search-box {
-    width: 100%;
+    width: 300px;
   }
   .search-box input {
     width: 90%;
@@ -251,9 +306,42 @@ a {
     font-size: 17px;
   }
   .banner {
-    width: 100px;
+    width: 370px;
   }
-  .banner-container {
-    width: 600px;
+  .banner .banner-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 180px;
+    padding: 20px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    align-items: flex-start;
+  }
+  .banner .banner-container .banner-data {
+    width: 50%;
+  }
+  .banner .banner-container p {
+    font-size: 12px;
+    margin: 0px !important;
+    line-height: 1.2 !important;
+    margin-top: 5px !important;
+  }
+  .banner .banner-container h1 {
+    font-size: 15px;
+    line-height: 1;
+    margin: 0px !important;
+  }
+  .banner .banner-container .banner-data button {
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 11px;
+    width: 100px;
+    margin-top: 8px;
+    border: 0.8px solid black;
   }
 }
