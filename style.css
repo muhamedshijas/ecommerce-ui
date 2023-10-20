@@ -614,11 +614,11 @@ a {
     overflow: hidden;
   }
   .main-section{
-    background-size: cover;
+    background-size: auto;
     background-repeat: no-repeat;
     background-position: center;
-    height:43vh;
-    width: 70%;
+    height:70vh;
+    width: 100%;
   }
   .main-section .main-data {
     width: 100%;
@@ -635,7 +635,7 @@ a {
     border: 2.3px solid black;
   }
   .banner-cards{
-    width: 80%;
+    width: 100%;
   }
  .trending{
   width: 100%;
@@ -645,8 +645,17 @@ a {
     overflow-x: scroll !important;
   }
   .banner-cards .banner-card{
-    width: 280px;
-    background-size: contain;
+    height: 210px;
+    width: 360px;
+    background-size: cover;
     background-position: center;
+  }
+  .blogs{
+    width: 100%;
+  }
+  .blogs .blog-cards{
+    width: 100%;
+    gap: 10px; 
+    overflow-x: scroll;
   }
 }
