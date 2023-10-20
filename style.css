@@ -195,13 +195,13 @@ a {
 }
 
 .banner-cards .banner-card1 {
-  background: url("../images/image-6.jpg");
+  background: url("./images/image-6.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 .banner-cards .banner-card2 {
-  background: url("../images/image-7.jpg");
+  background: url("./images/image-7.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -321,12 +321,12 @@ a {
   margin: 0px !important;
 }
 .essential-products .essential-product-card2 {
-  background: url("../images/image-4.jpg");
+  background: url("./images/image-4.jpg");
   background-position: center;
   background-size: cover;
 }
 .essential-products .essential-product-card1 {
-  background: url("../images/image-5.jpg");
+  background: url("./images/image-5.jpg");
   background-position: center;
   background-size: cover;
 }
