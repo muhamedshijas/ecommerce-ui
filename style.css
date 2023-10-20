@@ -548,7 +548,7 @@ a {
 }
 .footer-links .links{
   margin-top: 10px;
-  width: 20%;
+  width: 30%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -696,5 +696,48 @@ a {
   }
   .discount-container .discount{
     width: 100%;
+  }
+  .footer-container .footer{
+    padding: 12px 10px;
+    gap: 0px;
+    width: 100%;
+  }
+  .footer .footer-data{
+    width: 100% !important;
+  }
+  .footer-data p{
+    font-size: 10px;
+  }
+  .footer-data ul{
+    font-size: 10px;
+    font-weight: 500;
+  }
+  .footer-links{
+    font-size: 8px;
+  }
+  .footer-data ul{
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    font-size: 7px;
+    margin-top: 0px !important;
+  }
+  .footer-data b{
+    font-size: 10px;
+  }
+  .footer-container .footer{
+    margin-top: 0px !important;
+  }
+  .footer-links{
+    height: 30px;
+  }
+  .footer-data ul li{
+    margin-top: 0px;
+  }
+  .copyright{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
   }
 }
