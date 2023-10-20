@@ -641,6 +641,7 @@ a {
   width: 100%;
  }
   .trending .trending-cards {
+    gap: 10px;
     flex-wrap: nowrap !important;
     overflow-x: scroll !important;
   }
@@ -650,12 +651,50 @@ a {
     background-size: cover;
     background-position: center;
   }
-  .blogs{
+  .blogs-container .blogs{
     width: 100%;
   }
   .blogs .blog-cards{
     width: 100%;
     gap: 10px; 
     overflow-x: scroll;
+  }
+  .blog-cards .blog-card{
+    height: 100%;
+  }
+  .essential-products{
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    overflow-x: scroll !important;
+    gap: 20px;
+  }
+  .essential-products .essential-product-card {
+    width: 100%;
+    height: 330px;
+  }
+  .offer-cards .offer-card{
+    height: 100%;
+  }
+  .offer-cards{
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    overflow-x: scroll !important;
+    width: 100%;
+    gap: 10px;
+  }
+  .brands{
+    margin-top: 40px !important;
+    display: flex;
+    
+  }
+   .brand-cards{
+    width: 100%;
+  }
+  .brands .brand-card{
+    height: 60px;
+    width: 60px;
+  }
+  .discount-container .discount{
+    width: 100%;
   }
 }
