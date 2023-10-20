@@ -195,19 +195,19 @@ a {
 }
 
 .banner-cards .banner-card1 {
-  background: url("./images/image-6.jpg");
+  background: url("../images/image-6.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 .banner-cards .banner-card2 {
-  background: url("./images/image-7.jpg");
+  background: url("../images/image-7.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 .banner-cards .banner-card3 {
-  background: url("./images/image-8.jpg");
+  background: url("../images/image-8.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -321,12 +321,12 @@ a {
   margin: 0px !important;
 }
 .essential-products .essential-product-card2 {
-  background: url("./images/image-4.jpg");
+  background: url("../images/image-4.jpg");
   background-position: center;
   background-size: cover;
 }
 .essential-products .essential-product-card1 {
-  background: url("./images/image-5.jpg");
+  background: url("../images/image-5.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -391,21 +391,21 @@ a {
   justify-content: space-around;
 }
 .brands .brand-card1 {
-  background: url("./images/image-12.jpg");
+  background: url("../images/image-12.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .brands .brand-card2 {
-  background: url("./images/image-13.jpg");
+  background: url("../images/image-13.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .brands .brand-card3 {
-  background: url("./images/image-14.jpg");
+  background: url("../images/image-14.jpg");
 
   background-size: cover;
   background-position: center;
@@ -413,14 +413,14 @@ a {
 }
 
 .brands .brand-card4 {
-  background: url("./images/image-15.jpg");
+  background: url("../images/image-15.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .brands .brand-card5 {
-  background: url("./images/image-16.jpg");
+  background: url("../images/image-16.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
